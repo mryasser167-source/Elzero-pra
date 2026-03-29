@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+    <style>
+      .container {
+        width: 80%;
+        height: 50px;
+        background-color: #eee;
+        margin: 20px auto;
+        display: grid;
+        overflow: auto;
+        justify-content: center;
+        align-items: baseline;
+        grid-template-columns: 1fr;
+        padding: 30px;
+      }
+      .form {
+        display: flex;
+        justify-content: center;
+      }
+      .submit {
+        position: relative;
+        left: 10px;
+        color: white;
+        background-color: rgb(255, 92, 0);
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+      .text {
+        outline: none;
+        border-radius: 20px;
+        border-color: rgb(255, 92, 0);
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" class="form">
+      <input type="text" class="text" />
+      <input type="submit" class="submit" />
+    </form>
+    <div class="container"></div>
+
+    <script src="BOM-challange.js"></script>
+  </body>
+</html>
